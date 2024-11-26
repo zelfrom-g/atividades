@@ -11,7 +11,7 @@ Este projeto implementa uma **Lista Sequencial Ordenada** em C, que utiliza **al
 A lista sequencial originalmente usava um vetor de tamanho fixo. Com a modificação, agora ela:
 1. **Expande a capacidade automaticamente**: 
    - Quando o número de elementos atinge a capacidade máxima, o tamanho da lista é dobrado.
-2. **Reduz a capacidade automaticamente**: 
+2. **Reduz a capacidade automaticamente**:
    - Quando o número de elementos cai para 25% da capacidade, a lista é reduzida pela metade, economizando memória.
 
 Essas operações são realizadas utilizando a função **`realloc`** para redimensionar o vetor dinâmico.
